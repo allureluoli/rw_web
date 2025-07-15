@@ -1,0 +1,16 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+  //  "presets": [
+  //   ["@babel/preset-typescript", { "onlyRemoveTypeImports": true }] // 确保 `erasableSyntaxOnly` 未启用
+  // ]
+}
